@@ -1,0 +1,824 @@
+You are an expert Product Architect, Senior Full Stack Engineer, AI Systems Designer, UX Designer, and Startup Founder.
+
+Your task is NOT to build another property management application.
+
+Your task is to design and build HomeOS — an AI-Powered Digital Property Twin and Household Intelligence Platform.
+
+Think like you are building the future operating system for every property.
+
+-------------------------------------------------------
+
+PROJECT NAME
+
+HomeOS
+
+Tagline:
+
+"Every Property Deserves a Digital Brain."
+
+-------------------------------------------------------
+
+CORE PHILOSOPHY
+
+Existing apps store information.
+
+HomeOS understands information.
+
+Instead of becoming another document storage application, reminder application, expense tracker, or property management software,
+
+HomeOS creates an AI Digital Property Twin.
+
+Every house, apartment, office, agricultural land, rental property, commercial building, and plot receives its own intelligent digital identity.
+
+This Digital Twin continuously learns everything about the property throughout its lifecycle.
+
+It remembers
+
+• every bill
+
+• every maintenance activity
+
+• every renovation
+
+• every appliance
+
+• every insurance policy
+
+• every warranty
+
+• every document
+
+• every tenant
+
+• every loan
+
+• every utility payment
+
+• every tax
+
+• every expense
+
+• every service
+
+• every legal record
+
+and continuously transforms raw information into intelligence.
+
+The platform should feel less like software and more like an intelligent property assistant.
+
+-------------------------------------------------------
+
+DESIGN GOAL
+
+Do NOT design a dashboard full of tables.
+
+Design an experience similar to
+
+Apple Home
+
+Tesla App
+
+Notion
+
+Linear
+
+Google Gemini
+
+ChatGPT
+
+with beautiful animations and intelligent interactions.
+
+The UI should immediately communicate
+
+"This property is alive."
+
+-------------------------------------------------------
+
+CORE IDEA
+
+Every property has its own AI Brain.
+
+Every uploaded document increases the intelligence of the Digital Twin.
+
+Every payment updates the Twin.
+
+Every maintenance activity updates the Twin.
+
+Every service updates the Twin.
+
+Every AI conversation improves the Twin's understanding.
+
+The property continuously becomes smarter.
+
+-------------------------------------------------------
+
+HOME SCREEN
+
+The first screen should immediately show
+
+Good Morning, Aafreen
+
+Your Property Ecosystem
+
+Property Health Score
+
+AI Insights
+
+Upcoming Tasks
+
+Current Property Value
+
+Monthly Expenses
+
+AI Recommendations
+
+Recent Timeline
+
+Quick Ask AI
+
+Recent Documents
+
+Weather (optional)
+
+Energy Usage
+
+Property Status
+
+Everything should feel premium.
+
+-------------------------------------------------------
+
+DIGITAL PROPERTY TWIN
+
+Every property should contain
+
+Property Identity
+
+Property Name
+
+Type
+
+Area
+
+Purchase Date
+
+Purchase Price
+
+Current Value
+
+Owner
+
+Location
+
+Map
+
+Coordinates
+
+Property Photos
+
+Floor Plans
+
+Documents
+
+Timeline
+
+Insurance
+
+Taxes
+
+Loan
+
+Utilities
+
+Solar
+
+Water
+
+Electricity
+
+Gas
+
+Appliances
+
+Warranties
+
+Service History
+
+Tenants
+
+Expenses
+
+Subscriptions
+
+Contacts
+
+Emergency Information
+
+AI Knowledge
+
+Health Score
+
+Risk Analysis
+
+Recommendations
+
+Everything belongs to one intelligent profile.
+
+-------------------------------------------------------
+
+AI DOCUMENT INTELLIGENCE
+
+Users simply upload
+
+PDF
+
+Photo
+
+Scanned Paper
+
+Invoice
+
+Electricity Bill
+
+Insurance
+
+Sale Deed
+
+Tax Receipt
+
+Warranty
+
+Agreement
+
+Loan Paper
+
+The AI automatically extracts
+
+Owner Name
+
+Survey Number
+
+Registration Date
+
+Area
+
+Property Number
+
+Expiry Dates
+
+Due Dates
+
+Insurance Details
+
+Utility Details
+
+Loan Details
+
+Appliance Information
+
+Property Mapping
+
+Service Provider
+
+Renewal Date
+
+Everything automatically updates the Digital Property Twin.
+
+No manual entry.
+
+-------------------------------------------------------
+
+PROPERTY TIMELINE
+
+Every activity becomes history.
+
+Purchased
+
+↓
+
+Registration
+
+↓
+
+Loan Approved
+
+↓
+
+Insurance Purchased
+
+↓
+
+Renovation
+
+↓
+
+Painting
+
+↓
+
+Solar Installed
+
+↓
+
+Tenant Added
+
+↓
+
+AC Serviced
+
+↓
+
+Roof Repaired
+
+↓
+
+Property Tax Paid
+
+↓
+
+Insurance Renewed
+
+↓
+
+Tenant Left
+
+↓
+
+Sold
+
+Timeline should look like GitHub commits or Apple's Health timeline.
+
+-------------------------------------------------------
+
+PROPERTY HEALTH SCORE
+
+One of the most innovative features.
+
+AI continuously evaluates
+
+Pending Bills
+
+Missing Documents
+
+Insurance
+
+Loan
+
+Utilities
+
+Maintenance
+
+Tax
+
+Legal Compliance
+
+Appliance Status
+
+Security
+
+Property Age
+
+Water Consumption
+
+Electricity Trend
+
+Solar Health
+
+Rental Occupancy
+
+Risk
+
+Display
+
+96/100
+
+Healthy
+
+Reasons
+
+✓ Insurance Active
+
+✓ Property Tax Paid
+
+✓ Loan EMI Updated
+
+⚠ AC Service Due
+
+⚠ Water Filter Replacement
+
+-------------------------------------------------------
+
+HOUSEHOLD INTELLIGENCE
+
+Instead of showing numbers,
+
+AI explains them.
+
+Example
+
+Electricity consumption increased 31%.
+
+Possible causes
+
+• Summer usage
+
+• New appliance
+
+• Water motor issue
+
+Estimated annual impact
+
+₹8,300
+
+Another example
+
+Maintenance costs increased because
+
+Roof repair
+
+Painting
+
+Water tank cleaning
+
+Predicted maintenance next year
+
+₹42,000
+
+-------------------------------------------------------
+
+PREDICTIVE MAINTENANCE
+
+Instead of reminders,
+
+predict future events.
+
+Examples
+
+Water purifier service
+
+Solar cleaning
+
+Roof inspection
+
+Electrical inspection
+
+Water tank cleaning
+
+Lift servicing
+
+Plumbing maintenance
+
+AC servicing
+
+Pump replacement
+
+Battery replacement
+
+Based on
+
+usage
+
+property age
+
+previous history
+
+manufacturer recommendations
+
+AI predictions
+
+-------------------------------------------------------
+
+PROPERTY AI ASSISTANT
+
+Allow natural conversations.
+
+Examples
+
+Which insurance expires next month?
+
+Show my Pune apartment documents.
+
+How much rent did I receive in 2025?
+
+What appliances need servicing?
+
+Which property gives the highest ROI?
+
+How much money have I invested?
+
+What did I renovate last year?
+
+Compare my properties.
+
+Predict my expenses next year.
+
+Should I sell or rent this property?
+
+-------------------------------------------------------
+
+AI RECOMMENDATION ENGINE
+
+This is not reminders.
+
+This is intelligence.
+
+Examples
+
+Refinance your home loan.
+
+Install solar panels.
+
+Replace AC instead of repairing.
+
+Increase rent by 5%.
+
+Renew insurance before premium increase.
+
+Property value has increased significantly.
+
+You should repaint next summer.
+
+Water consumption is abnormal.
+
+-------------------------------------------------------
+
+LIFE EVENT SIMULATION
+
+This feature should amaze judges.
+
+Users ask
+
+What happens if
+
+I sell?
+
+I rent?
+
+I renovate?
+
+I install solar?
+
+I repay the loan early?
+
+I purchase another property?
+
+AI generates
+
+Projected ROI
+
+Future value
+
+Rental income
+
+Break-even
+
+Cash flow
+
+Investment comparison
+
+-------------------------------------------------------
+
+FAMILY COLLABORATION
+
+Owner
+
+Parents
+
+Children
+
+Lawyer
+
+Chartered Accountant
+
+Property Manager
+
+Each has permission levels.
+
+Real-time collaboration.
+
+-------------------------------------------------------
+
+LEGACY MODE
+
+One of the strongest features.
+
+If the owner passes away,
+
+the nominee instantly receives
+
+Documents
+
+Insurance
+
+Loans
+
+Lawyers
+
+Taxes
+
+Timeline
+
+Important Contacts
+
+Passwords (optional secure vault)
+
+Upcoming payments
+
+Property history
+
+AI Summary
+
+Everything needed to manage the property.
+
+This preserves family knowledge across generations.
+
+-------------------------------------------------------
+
+PROPERTY TIME MACHINE
+
+One of the most innovative features.
+
+Users ask
+
+Show my property in 2022.
+
+What changed after renovation?
+
+Compare before and after solar.
+
+Show maintenance evolution.
+
+Show electricity trend for five years.
+
+The AI reconstructs the complete history.
+
+-------------------------------------------------------
+
+MULTI PROPERTY MANAGEMENT
+
+One dashboard.
+
+All properties.
+
+Health Score
+
+Expenses
+
+Current Value
+
+ROI
+
+Pending Bills
+
+Upcoming Maintenance
+
+Risk
+
+Map View
+
+Analytics
+
+-------------------------------------------------------
+
+ANALYTICS
+
+Beautiful charts.
+
+Monthly Expenses
+
+Utility Trends
+
+Rental Income
+
+Investment Growth
+
+Property Appreciation
+
+ROI
+
+Cash Flow
+
+Maintenance
+
+Loan
+
+Insurance
+
+Energy Usage
+
+Water Usage
+
+-------------------------------------------------------
+
+SMART MAP
+
+Every property shown on Google Maps.
+
+Tap any property.
+
+Open Digital Twin.
+
+-------------------------------------------------------
+
+TECH STACK
+
+Frontend
+
+Flutter
+
+React Admin Panel
+
+Backend
+
+FastAPI
+
+Python
+
+AI
+
+OpenAI
+
+Gemini
+
+OCR
+
+RAG
+
+Embeddings
+
+Recommendation Engine
+
+Prediction Models
+
+Database
+
+PostgreSQL
+
+Firebase
+
+Cloud
+
+AWS
+
+Authentication
+
+Firebase Auth
+
+Role Based Access
+
+Encryption
+
+AES-256
+
+-------------------------------------------------------
+
+DESIGN STYLE
+
+Glassmorphism
+
+Apple
+
+Tesla
+
+Linear
+
+Notion
+
+Google Material 3
+
+Premium
+
+Dark Mode
+
+Light Mode
+
+Micro Animations
+
+Smooth Transitions
+
+Interactive AI Cards
+
+Beautiful Graphs
+
+Premium Typography
+
+-------------------------------------------------------
+
+MISSION
+
+Don't build a property management app.
+
+Build an AI Operating System.
+
+The user should feel that every property has become a living intelligent digital entity capable of remembering, learning, predicting, advising, and evolving throughout its entire lifecycle.
+
+The project should be polished enough to look like a startup capable of becoming India's next billion-dollar proptech company.
+
+Every screen, every animation, every AI interaction, and every feature should reinforce one message:
+
+"This isn't software.
+
+This is the Digital Brain of your property."
+
+
+
