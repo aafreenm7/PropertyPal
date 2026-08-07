@@ -1,0 +1,63 @@
+Additions:
+
+## 💰 Family Financial Access Module
+
+A separate section within PropertyVault for managing **PF/EPF, insurance, pension, and other financial benefits** that families may need to access during retirement or emergencies.
+
+### 1. Financial Asset Locker
+
+Store basic information and documents for:
+
+* PF/EPF
+* Insurance policies
+* Pension
+* Other employee/government benefits
+
+### 2. 🤖 AI Claim Assistant
+
+User asks:
+
+> “How can I claim my PF after retirement?”
+
+The AI provides a **personalized step-by-step checklist** based on the user's stored information and documents.
+
+It can identify:
+
+* Required documents
+* Missing documents
+* Pending requirements
+* Next action
+
+### 3. 📋 Claim Tracker
+
+Track the progress of a claim:
+
+**Initiated → Documents Submitted → Verification → Processing → Approved → Amount Received**
+
+### 4. 🔍 Missing Document Detection
+
+Before starting a claim, PropertyVault checks the document locker and says:
+
+> **4/6 required documents available.**
+> ⚠️ 2 documents are missing.
+
+This directly addresses **avoidable delays caused by incomplete documentation**.
+
+### 5. 🚨 Integration with Existing Emergency Mode
+
+This is where the addition fits especially well.
+
+If an owner becomes unavailable, the authorized nominee can see:
+
+* PF/EPF
+* Insurance
+* Properties
+* Important documents
+* Pending claims
+* Important contacts
+
+So the additional idea is essentially:
+
+> **“Don't just tell families what assets they have—help them understand what they need to do to access those assets.”**
+
+ PF is not another major feature alongside rental management, property analytics, etc.** .**Financial Access / Claim Assistant module** is an addition to the original idea.
