@@ -1,0 +1,1669 @@
+# ANTIGRAVITY MASTER PROMPT — HOMEOS PROTOTYPE
+
+Build a polished, high-fidelity, responsive prototype for a product called **HomeOS**.
+
+## PRODUCT NAME
+
+**HomeOS**
+
+### Tagline
+
+**“Your home remembers. You just live in it.”**
+
+### Product description
+
+HomeOS is an **AI-powered Digital Home Twin and Household Intelligence Platform**.
+
+The problem we are solving is simple:
+
+> Families have information about their homes scattered across documents, emails, WhatsApp, portals, bills, invoices, physical files and different apps. The information exists, but nobody connects it, understands it as a whole, or tells the family what needs attention.
+
+HomeOS creates a digital memory of the home.
+
+It understands:
+
+* household documents
+* bills
+* property records
+* appliances
+* warranties
+* insurance
+* maintenance
+* repairs
+* expenses
+* recurring obligations
+* important dates
+* family access
+
+Then it proactively answers:
+
+# **“What does my home need from me today?”**
+
+HomeOS should NOT feel like a generic property-management app, accounting app, document locker, or chatbot.
+
+It should feel like:
+
+> **A calm digital command center for the home that remembers everything important and tells the family what to do next.**
+
+---
+
+# 1. DESIGN PHILOSOPHY
+
+The interface should feel:
+
+* modern
+* premium
+* trustworthy
+* calm
+* intelligent
+* extremely easy for a normal family to understand
+* friendly enough for elderly/non-technical users
+* sophisticated enough for a hackathon demonstration
+
+Avoid:
+
+* overly corporate dashboards
+* excessive tables
+* complicated enterprise UI
+* too many charts
+* cryptocurrency/fintech aesthetics
+* generic AI chatbot appearance
+* excessive gradients
+* clutter
+* unnecessary animations
+
+The product should feel like a combination of:
+
+**Apple-level simplicity + modern AI product + trusted household assistant.**
+
+---
+
+# 2. VISUAL LANGUAGE
+
+Use a clean light interface.
+
+### Primary palette
+
+* warm off-white / very light background
+* deep navy / charcoal text
+* soft blue as the primary interaction color
+* subtle green for healthy/success states
+* amber for upcoming warnings
+* red only for urgent issues
+
+Use colors sparingly.
+
+### Cards
+
+Use:
+
+* rounded corners
+* subtle shadows
+* thin borders
+* generous whitespace
+* clear hierarchy
+
+Cards should feel like physical information blocks representing parts of the home.
+
+### Typography
+
+Use a modern sans-serif font such as:
+
+* Inter
+* Manrope
+* SF Pro-style equivalent
+
+Use:
+
+* large strong headings
+* medium-weight section labels
+* highly readable body text
+
+Avoid excessive bold text.
+
+---
+
+# 3. OVERALL APPLICATION STRUCTURE
+
+Create the following main navigation:
+
+### Desktop sidebar
+
+1. 🏠 Home
+2. 🧠 My Home
+3. 📄 Documents
+4. 🔧 Maintenance
+5. 🧊 Appliances
+6. 💰 Expenses
+7. 🛡️ Insurance
+8. 📅 Calendar
+9. 👨‍👩‍👧 Family
+10. 🤖 HomeOS AI
+11. ⚙️ Settings
+
+At the bottom:
+
+**Home Profile**
+
+Pune Apartment
+
+2 BHK
+
+---
+
+# 4. MAIN DASHBOARD — MOST IMPORTANT SCREEN
+
+The Home screen should immediately communicate:
+
+# **“Here is what your home needs from you today.”**
+
+Do NOT make property value the hero metric.
+
+Do NOT make total assets the hero metric.
+
+The primary hero section must be:
+
+## “Needs Your Attention”
+
+---
+
+## HEADER
+
+Top-left:
+
+### Good Morning, Aafreen 👋
+
+Subtext:
+
+**“Here’s what your home needs today.”**
+
+Top-right:
+
+* notification icon
+* profile avatar
+* small HomeOS status indicator
+
+Example:
+
+**● HomeOS is up to date**
+
+---
+
+# 5. HERO SECTION — NEEDS YOUR ATTENTION
+
+Create a large prominent card.
+
+Heading:
+
+## ⚡ Needs Your Attention
+
+Subheading:
+
+**3 things need your attention**
+
+Display three action cards.
+
+### Card 1
+
+🔴
+
+**Electricity Bill**
+
+₹1,840
+
+**Due in 2 days**
+
+Button:
+
+**Pay / View**
+
+---
+
+### Card 2
+
+🟡
+
+**AC Service**
+
+Last serviced 6 months ago.
+
+**Recommended this week**
+
+Button:
+
+**View Service**
+
+---
+
+### Card 3
+
+🟡
+
+**Home Insurance**
+
+Expires in 18 days.
+
+Button:
+
+**View Policy**
+
+---
+
+Each card should have:
+
+* status indicator
+* title
+* short explanation
+* date
+* optional amount
+* clear CTA
+
+The user should understand each issue in less than 3 seconds.
+
+---
+
+# 6. HOME HEALTH CARD
+
+Below the attention section, create a card:
+
+## 🏠 Home Health
+
+Large circular or semi-circular score:
+
+# 86 / 100
+
+Label:
+
+**Your home is mostly on track**
+
+Breakdown:
+
+Documents — 92%
+Bills — Up to date
+Maintenance — 2 pending
+Warranties — 94% active
+Insurance — 1 renewal approaching
+
+Add a button:
+
+**View Home Health**
+
+The score should visually communicate the overall state of the household.
+
+---
+
+# 7. UPCOMING TIMELINE
+
+Create:
+
+## 📅 Coming Up
+
+Timeline:
+
+**Today**
+Electricity bill
+
+**In 5 days**
+Society maintenance
+
+**In 18 days**
+Insurance renewal
+
+**In 30 days**
+Washing machine warranty reminder
+
+**Next month**
+AC service
+
+Allow the user to click each event.
+
+---
+
+# 8. MY HOME DIGITAL TWIN
+
+Create a visually attractive section:
+
+## 🏠 My Home
+
+Show a simplified illustrated/3D-style representation of a modern apartment/home.
+
+Do NOT make it overly realistic.
+
+Around the home, show small interactive hotspots:
+
+❄️ AC
+🧊 Refrigerator
+💧 RO
+🛋️ Living Room
+🛏️ Bedroom
+🚿 Bathroom
+🔐 Documents
+
+When hovering/clicking an object, show information.
+
+Example:
+
+### AC
+
+LG 1.5 Ton
+
+Installed:
+15 March 2026
+
+Warranty:
+Active
+
+Next service:
+March 2027
+
+This section is important because it visually communicates the concept of a **Digital Home Twin**.
+
+---
+
+# 9. HOME MEMORY
+
+Create a section titled:
+
+## 🧠 Home Memory
+
+Subtitle:
+
+**“Everything important your home has experienced.”**
+
+Display a chronological timeline.
+
+Example:
+
+### 12 Sept 2026
+
+🔧 AC Serviced
+
+₹1,200
+
+Technician:
+ABC Services
+
+---
+
+### 5 Sept 2026
+
+🏛️ Property Tax Paid
+
+₹4,820
+
+---
+
+### 28 Aug 2026
+
+🔧 Washing Machine Repaired
+
+₹850
+
+Issue:
+Drain pump
+
+---
+
+### 15 Aug 2026
+
+🛡️ Insurance Renewed
+
+---
+
+Allow:
+
+**View Full Timeline**
+
+The timeline is a key part of the Digital Twin.
+
+---
+
+# 10. APPLIANCES PAGE
+
+Create a dedicated Appliances page.
+
+Heading:
+
+# 🧊 My Appliances
+
+Subheading:
+
+**“Your home's equipment, warranties and service history.”**
+
+Display appliance cards.
+
+### AC
+
+LG 1.5 Ton
+
+Purchased:
+15 March 2026
+
+Warranty:
+Active until March 2028
+
+Last Service:
+12 Sept 2026
+
+Next Service:
+March 2027
+
+---
+
+### Refrigerator
+
+Samsung
+
+Purchased:
+10 Jan 2025
+
+Warranty:
+Active
+
+---
+
+### Washing Machine
+
+IFB
+
+Warranty:
+
+⚠️ Expires in 30 days
+
+---
+
+### RO
+
+Kent
+
+Filter:
+
+⚠️ Replacement due in 12 days
+
+---
+
+Add:
+
+**+ Add Appliance**
+
+---
+
+# 11. APPLIANCE DETAIL PAGE
+
+When clicking an appliance, open a detailed page.
+
+Example:
+
+# ❄️ LG AC
+
+### Overview
+
+Installed:
+15 March 2026
+
+Purchase price:
+₹42,000
+
+Warranty:
+Until March 2028
+
+---
+
+### Service History
+
+12 Sept 2026
+AC Serviced
+₹1,200
+
+10 March 2026
+Installation
+₹2,000
+
+---
+
+### Documents
+
+📄 Invoice
+📄 Warranty Card
+📄 Installation Receipt
+
+---
+
+### AI Insight
+
+Create a subtle AI insight card:
+
+🤖 **HomeOS Insight**
+
+“Your AC has been serviced regularly. Based on your last service date, the next maintenance is recommended around March 2027.”
+
+---
+
+# 12. DOCUMENTS PAGE
+
+Do NOT make this look like Google Drive.
+
+The key idea is:
+
+# **Intelligent Documents**
+
+Heading:
+
+## 📄 Home Documents
+
+Subheading:
+
+**“Documents organized by what they mean, not just where they are stored.”**
+
+Categories:
+
+### Property
+
+Sale Deed
+Registration
+Index II
+Property Tax
+
+### Insurance
+
+Home Insurance
+Appliance Insurance
+
+### Appliances
+
+AC Invoice
+Refrigerator Warranty
+Washing Machine Invoice
+
+### Financial
+
+Home Loan
+EMI Records
+
+Each document card should show:
+
+* document name
+* category
+* related asset
+* date
+* expiry if applicable
+* verification status
+
+Example:
+
+**Home Insurance**
+
+Related to:
+Pune Apartment
+
+Expires:
+20 September 2027
+
+Status:
+🟢 Active
+
+---
+
+# 13. UPLOAD DOCUMENT EXPERIENCE
+
+Create a beautiful upload flow.
+
+Large area:
+
+### Drag & Drop or Upload
+
+**“Let HomeOS remember this for you.”**
+
+Supported:
+
+PDF
+JPG
+PNG
+
+After upload, show AI processing animation:
+
+### 🤖 HomeOS is understanding your document...
+
+Then show extracted information:
+
+**Document Type**
+Home Insurance
+
+**Property**
+Pune Apartment
+
+**Policy Number**
+INS-483920
+
+**Premium**
+₹12,500
+
+**Start Date**
+20 Sept 2026
+
+**Expiry**
+20 Sept 2027
+
+Then:
+
+### ✓ Added to your Digital Home Twin
+
+Button:
+
+**View in Home**
+
+---
+
+# 14. DOCUMENT SOURCE / TRUST LABELS
+
+Every important piece of information should show its source.
+
+Use these labels:
+
+🟢 **Government Verified**
+
+🔵 **User Provided**
+
+🟣 **AI Extracted**
+
+🟠 **Needs Verification**
+
+🔴 **Information Conflict**
+
+Example:
+
+### Property Area
+
+1,050 sq.ft.
+
+🟢 Government Verified
+
+This is important for future government integration.
+
+---
+
+# 15. MAINTENANCE PAGE
+
+Heading:
+
+# 🔧 Maintenance
+
+Subheading:
+
+**“Your home's repair and service memory.”**
+
+Sections:
+
+### Needs Attention
+
+AC Service
+Due this week
+
+RO Filter
+Due in 12 days
+
+### Recent
+
+AC Service
+₹1,200
+
+Washing Machine Repair
+₹850
+
+Plumbing
+₹600
+
+### Maintenance History
+
+Create a clean timeline.
+
+Allow:
+
+**+ Add Maintenance**
+
+---
+
+# 16. EXPENSES PAGE
+
+Heading:
+
+# 💰 Home Expenses
+
+Keep this simple.
+
+Do NOT make it look like an investment dashboard.
+
+Show:
+
+### This Month
+
+₹8,420
+
+### This Year
+
+₹38,420
+
+Breakdown:
+
+Maintenance
+₹14,200
+
+Utilities
+₹9,600
+
+Appliances
+₹8,200
+
+Other
+₹6,420
+
+Use one simple donut or bar visualization.
+
+Then:
+
+### HomeOS Insight
+
+“Maintenance expenses are 18% higher than your average monthly spending.”
+
+---
+
+# 17. INSURANCE PAGE
+
+Heading:
+
+# 🛡️ Protection
+
+Cards:
+
+Home Insurance
+
+🟢 Active
+
+Expires:
+20 Sept 2027
+
+Premium:
+₹12,500
+
+---
+
+Appliance Warranty
+
+🟡 1 warranty expiring soon
+
+---
+
+Vehicle Insurance
+
+🟢 Active
+
+---
+
+Show a simple protection timeline.
+
+---
+
+# 18. CALENDAR PAGE
+
+Create a household-specific calendar.
+
+Events automatically generated by HomeOS.
+
+Examples:
+
+🔴 Electricity Bill
+
+🟡 Insurance Renewal
+
+🟡 AC Service
+
+🟢 Property Tax
+
+🟡 Warranty Expiry
+
+Allow switching between:
+
+Month
+Week
+Upcoming
+
+Important:
+
+These events should appear automatically from extracted document information rather than requiring the user to manually create every reminder.
+
+---
+
+# 19. AI ASSISTANT — HOMEOS AI
+
+Create a dedicated AI experience.
+
+Heading:
+
+# 🤖 Ask HomeOS
+
+Subheading:
+
+**“Your home remembers. Ask it anything.”**
+
+Large conversational input:
+
+### “Ask anything about your home…”
+
+Suggested questions:
+
+**What needs my attention this week?**
+
+**When was the AC last serviced?**
+
+**How much did we spend on repairs this year?**
+
+**Which warranties expire next?**
+
+**Show me documents related to my Pune apartment.**
+
+**When is my property tax due?**
+
+---
+
+When the user asks:
+
+> “When was the AC last serviced?”
+
+Response:
+
+### HomeOS
+
+Your LG AC was last serviced on:
+
+**12 September 2026**
+
+Cost:
+₹1,200
+
+Technician:
+ABC Services
+
+Next recommended service:
+March 2027
+
+Then provide:
+
+**View AC History →**
+
+The response should feel like it is coming from the Digital Home Twin, not a generic ChatGPT clone.
+
+---
+
+# 20. IMPORTANT AI FEATURE — “WHAT NEEDS MY ATTENTION?”
+
+Create a prominent suggested question:
+
+### ⚡ What needs my attention?
+
+When clicked, the AI generates:
+
+**Today**
+
+🔴 Electricity bill
+
+**This week**
+
+🟡 AC service
+
+**This month**
+
+🟡 Insurance renewal
+
+**Nothing else critical.**
+
+This is one of the most important interactions in the entire prototype.
+
+---
+
+# 21. FAMILY PAGE
+
+Heading:
+
+# 👨‍👩‍👧 Family Access
+
+Subheading:
+
+**“Share your home without losing control.”**
+
+Show:
+
+### Father
+
+Owner
+
+🟢 Full Access
+
+### Mother
+
+Family Member
+
+🟢 Property + Bills
+
+### Aafreen
+
+Family Member
+
+🟢 Selected Documents
+
+### Accountant
+
+Limited Access
+
+🟡 Expenses Only
+
+Add:
+
+**+ Invite Family Member**
+
+---
+
+# 22. EMERGENCY MODE
+
+Create a dedicated feature.
+
+Button:
+
+### 🚨 Emergency Mode
+
+When activated, show:
+
+# Emergency Home View
+
+### Critical Information
+
+🏠 Properties
+
+📄 Important Documents
+
+🛡️ Insurance
+
+🏦 Loans
+
+💰 Pending Payments
+
+📞 Important Contacts
+
+⚠️ Pending Actions
+
+Example:
+
+**Pune Apartment**
+
+Owner:
+Father
+
+Insurance:
+Active
+
+Home Loan:
+Active
+
+Pending:
+Insurance renewal
+
+Important Contact:
+Society Office
+
+The purpose is:
+
+> **Preserve the knowledge required to manage the home when the primary person is unavailable.**
+
+---
+
+# 23. GOVERNMENT INTEGRATION — FUTURE CONCEPT
+
+Create a small section in the prototype called:
+
+### 🏛️ Verified Records
+
+Show:
+
+Property Ownership
+
+🟢 Government Verified
+
+Property Tax
+
+🟢 Government Verified
+
+Registration
+
+🟢 Government Verified
+
+Land Record
+
+🟠 Connect / Verify
+
+Include a small explanation:
+
+> “HomeOS does not replace government systems. It helps you understand and manage information obtained from authorized sources.”
+
+Add a button:
+
+**Connect Official Sources**
+
+This should be clearly marked as:
+
+**Future / Pilot Integration**
+
+Do NOT pretend that live government APIs are already connected in the prototype.
+
+---
+
+# 24. PROPERTY HEALTH DETAIL
+
+Create a detailed page for the Home Health score.
+
+Heading:
+
+# 🏠 Home Health
+
+Large:
+
+## 86 / 100
+
+Status:
+
+**Healthy — 3 things need attention**
+
+Categories:
+
+### Documents
+
+92%
+
+### Bills
+
+100%
+
+### Maintenance
+
+78%
+
+### Warranties
+
+94%
+
+### Insurance
+
+85%
+
+### Family Access
+
+90%
+
+Then show:
+
+### Recommended Actions
+
+1. Renew insurance
+2. Schedule AC service
+3. Add missing maintenance receipt
+
+---
+
+# 25. SMART INSIGHTS
+
+Add a section:
+
+## ✨ HomeOS Insights
+
+Examples:
+
+> **Your maintenance spending increased 18% this year.**
+
+> **Your AC has been serviced every 6 months.**
+
+> **One appliance warranty expires next month.**
+
+> **You have not uploaded a maintenance record for the refrigerator.**
+
+> **Your property information appears complete except for one document.**
+
+These should feel like useful observations, not random AI-generated text.
+
+---
+
+# 26. PROPERTY / HOME PROFILE
+
+Create a Home Profile page.
+
+### Pune Apartment
+
+2 BHK
+
+1,050 sq.ft.
+
+Owned by:
+Family
+
+Purchased:
+2018
+
+Sections:
+
+Documents
+Maintenance
+Appliances
+Insurance
+Expenses
+Timeline
+Family Access
+
+Do NOT emphasize market value.
+
+If market value is shown at all, put it under an optional secondary section.
+
+The core product is household intelligence.
+
+---
+
+# 27. SEARCH EXPERIENCE
+
+Add global search.
+
+Placeholder:
+
+### “Search your home…”
+
+It should search across:
+
+* documents
+* appliances
+* maintenance
+* expenses
+* insurance
+* timeline
+* people
+
+Example:
+
+User types:
+
+**AC**
+
+Results:
+
+LG AC
+Invoice
+Warranty
+Service history
+₹1,200 service
+Next service
+
+Another search:
+
+**Insurance**
+
+Results:
+
+Home Insurance
+Policy
+Expiry
+Premium
+Documents
+Renewal reminder
+
+---
+
+# 28. NOTIFICATION CENTER
+
+Create a notification drawer.
+
+Example:
+
+🔴 Electricity bill due in 2 days
+
+🟡 AC service recommended
+
+🟡 Washing machine warranty expires in 30 days
+
+🟢 Insurance successfully added
+
+🔵 New family member added
+
+Allow:
+
+Mark as read
+View
+Snooze
+
+---
+
+# 29. EMPTY STATES
+
+Design thoughtful empty states.
+
+Example:
+
+No documents:
+
+### “Your home hasn't started remembering yet.”
+
+**Upload your first document →**
+
+No appliances:
+
+### “Add the things that keep your home running.”
+
+**Add Appliance →**
+
+No maintenance:
+
+### “Your home has no maintenance history yet.”
+
+**Add First Record →**
+
+Make empty states friendly rather than technical.
+
+---
+
+# 30. ONBOARDING
+
+Create a short onboarding flow.
+
+### Screen 1
+
+# Welcome to HomeOS
+
+**Your home remembers. You just live in it.**
+
+Button:
+
+**Build My Home**
+
+---
+
+### Screen 2
+
+### Tell us about your home
+
+Property type:
+
+Apartment
+House
+Plot
+Rental
+Other
+
+---
+
+### Screen 3
+
+### What do you want HomeOS to remember?
+
+Checkboxes:
+
+☑ Documents
+☑ Bills
+☑ Appliances
+☑ Maintenance
+☑ Insurance
+☑ Expenses
+
+---
+
+### Screen 4
+
+### Add your first document
+
+Upload button.
+
+After upload:
+
+**HomeOS is building your Digital Home Twin...**
+
+---
+
+### Screen 5
+
+Show:
+
+# Your HomeOS is ready 🏠
+
+**5 documents understood**
+
+**3 reminders created**
+
+**2 appliances added**
+
+**1 action needs attention**
+
+Button:
+
+**Enter My Home**
+
+---
+
+# 31. DEMO DATA
+
+Use realistic Indian household data.
+
+Primary property:
+
+### Pune Apartment
+
+2 BHK
+
+1,050 sq.ft.
+
+Use Indian Rupee amounts.
+
+Example:
+
+Electricity:
+₹1,840
+
+Property Tax:
+₹4,820
+
+AC Service:
+₹1,200
+
+Washing Machine Repair:
+₹850
+
+Insurance:
+₹12,500
+
+Do not use unrealistic luxury-property data.
+
+The product should visibly feel designed for a normal Indian family.
+
+---
+
+# 32. RESPONSIVENESS
+
+Create:
+
+### Desktop layout
+
+Sidebar + dashboard.
+
+### Tablet
+
+Collapsible sidebar.
+
+### Mobile
+
+Bottom navigation:
+
+Home
+Home Twin
+Tasks
+AI
+Profile
+
+The mobile experience is especially important because this is intended to be a consumer household application.
+
+---
+
+# 33. MICROINTERACTIONS
+
+Use subtle animations only.
+
+Examples:
+
+* Cards gently appear when loading
+* Home Health score animates from 0 to 86
+* AI document processing animation
+* Notification badge pulse
+* Timeline items fade in
+* Upload success animation
+* Home Twin hotspots gently highlight
+
+Do NOT over-animate.
+
+The app should feel trustworthy and stable.
+
+---
+
+# 34. MOST IMPORTANT UX PRINCIPLE
+
+The user should never feel:
+
+> “I have to manage HomeOS.”
+
+Instead, they should feel:
+
+> **“HomeOS manages the information for me.”**
+
+Therefore:
+
+### Reduce manual data entry.
+
+Use AI to extract information.
+
+### Reduce searching.
+
+Use semantic search.
+
+### Reduce remembering.
+
+Automatically create reminders.
+
+### Reduce complexity.
+
+Show only what needs attention.
+
+### Reduce anxiety.
+
+Clearly show:
+
+**All good**
+
+when nothing requires action.
+
+---
+
+# 35. THE CORE USER JOURNEY FOR THE PROTOTYPE
+
+The prototype must support this complete story:
+
+```text
+USER
+ ↓
+Create Home
+ ↓
+Upload Documents
+ ↓
+AI Reads Documents
+ ↓
+Information Extracted
+ ↓
+Digital Home Twin Created
+ ↓
+Relationships Created
+ ↓
+Reminders Generated
+ ↓
+Home Health Calculated
+ ↓
+Dashboard Shows What Needs Attention
+ ↓
+User Asks HomeOS AI
+ ↓
+AI Answers Using Home Memory
+ ↓
+User Takes Action
+```
+
+This flow should be fully clickable.
+
+---
+
+# 36. THE MAIN DEMO STORY
+
+For the final prototype demonstration, use this exact narrative:
+
+### Step 1
+
+User opens HomeOS.
+
+Dashboard says:
+
+**“Good morning. 3 things need your attention.”**
+
+---
+
+### Step 2
+
+User sees:
+
+🔴 Electricity bill
+
+🟡 AC service
+
+🟡 Insurance expiry
+
+---
+
+### Step 3
+
+User clicks insurance.
+
+HomeOS shows:
+
+Policy information extracted from the uploaded document.
+
+---
+
+### Step 4
+
+User asks:
+
+> **“When does my insurance expire?”**
+
+AI answers immediately.
+
+---
+
+### Step 5
+
+User asks:
+
+> **“What else needs attention this month?”**
+
+AI identifies:
+
+* Electricity
+* AC
+* Insurance
+
+---
+
+### Step 6
+
+User opens Home Memory.
+
+Shows:
+
+* repairs
+* tax
+* servicing
+* insurance
+* purchases
+
+---
+
+### Step 7
+
+User opens Home Health.
+
+Shows:
+
+**86/100**
+
+with recommended actions.
+
+---
+
+### Step 8
+
+Show Emergency Mode.
+
+Demonstrate how another authorized family member can access critical household information.
+
+---
+
+# 37. THE CENTRAL PRODUCT DIFFERENTIATOR
+
+Make this visible throughout the design:
+
+## Existing apps:
+
+**Store → User searches → User remembers → User acts**
+
+## HomeOS:
+
+**Understand → Remember → Detect → Alert → Guide**
+
+This is the fundamental difference.
+
+---
+
+# 38. DO NOT BUILD THESE AS CORE FEATURES
+
+Do NOT make these dominant in the prototype:
+
+* Property price prediction
+* Buy/sell recommendations
+* Investment portfolio
+* Real-estate marketplace
+* Stock tracking
+* Complex financial analytics
+* Property speculation
+* Generic chatbot
+* Generic to-do list
+
+These can exist in future scope, but they should not distract from the core concept.
+
+---
+
+# 39. FINAL BRAND MESSAGE
+
+Every major screen should reinforce the central idea:
+
+# **HOMEOS**
+
+### **Your home remembers. You just live in it.**
+
+Supporting message:
+
+> **From scattered information to one intelligent home memory.**
+
+And the core question:
+
+# **“What does my home need from me today?”**
+
+---
+
+# 40. FINAL REQUIREMENT
+
+Build the prototype as if this is a **real startup product**, not a college CRUD project.
+
+Prioritize:
+
+1. Excellent visual hierarchy
+2. Very simple UX
+3. Strong dashboard
+4. AI-driven document understanding
+5. Digital Home Twin visualization
+6. “Needs Your Attention” intelligence
+7. Home Memory timeline
+8. AI Home Assistant
+9. Family continuity
+10. Trust and verification
+
+The prototype should make a person understand the value of HomeOS within **10 seconds of opening the dashboard**.
+
+The first thing they should think is:
+
+> **“Oh — this app actually remembers my home and tells me what I need to take care of.”**
+
+That is the product.
